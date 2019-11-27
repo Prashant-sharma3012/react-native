@@ -10,6 +10,7 @@ const ProductsNavigator = createStackNavigator({
   ProductDetail: ProductDetail,
   Cart: CartScreen
 },{
+  initialRouteName: 'ProductsOverview',
   mode: 'modal',
   defaultNavigationOptions: {
     headerStyle: {

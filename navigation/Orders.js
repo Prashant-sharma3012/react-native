@@ -1,12 +1,10 @@
 // stack - (ManageProducts, AddProducts)
 import {createStackNavigator} from 'react-navigation-stack';
-import ManageProduct from '../screens/ManageProduct';
-import AddProduct from '../screens/AddProduct';
+import OrdersScreen from '../screens/OrdersScreen';
 import Colors from '../constants/color';
 
-const ManageProductsNavigator = createStackNavigator({
-  ManageProducts: ManageProduct,
-  AddProduct: AddProduct
+const OrdersNavigator = createStackNavigator({
+  Orders: OrdersScreen,
 },{
   mode: 'modal',
   defaultNavigationOptions: {
@@ -17,4 +15,4 @@ const ManageProductsNavigator = createStackNavigator({
   }
 });
 
-export default ManageProductsNavigator;
+export default OrdersNavigator;
