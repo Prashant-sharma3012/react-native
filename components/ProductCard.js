@@ -1,0 +1,71 @@
+import React from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, ImageBackground } from 'react-native';
+import Colors from '../constants/color';
+
+function ProductCard(props) {
+  return (
+    <TouchableOpacity onPress={props.onSelect}>
+      <View style={styles.container}>
+        <View style={styles.productImage}>
+          <ImageBackground style={styles.bgImage} source={{ uri: props.product.imagUrl }}>
+            <Text style={styles.imageTitle}>{props.product.productName}</Text>
+          </ImageBackground>
+
+        </View>
+        <View style={styles.productDetails}>
+          <Text style={styles.productDetailsText}>Model: {props.product.model}</Text>
+          <Text style={styles.productDetailsText}>Price: {props.product.price}K</Text>
+          <Text style={styles.productDetailsText}>Discount: {props.product.discount}%</Text>
+        </View>
+      </View>
+    </TouchableOpacity>
+  )
+}
+
+const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    margin: 15,
+    borderColor: Colors.productBorderColor,
+    borderWidth: 1,
+    borderRadius: 10,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    overflow: "hidden"
+  },
+  productImage: {
+    height: 200,
+    overflow: "hidden"
+  },
+  productName: {
+
+  },
+  productDetails: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    backgroundColor: Colors.primaryColor,
+    padding: 5,
+  },
+  productDetailsText: {
+    color: Colors.tint,
+    padding: 2,
+    fontWeight: "bold"
+  },
+  bgImage: {
+    width: "100%",
+    height: "100%"
+  },
+  imageTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: Colors.tint,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    paddingVertical: 5,
+    paddingHorizontal: 12,
+    textAlign: 'center'
+  }
+});
+
+
+export default ProductCard;

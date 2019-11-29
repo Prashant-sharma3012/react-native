@@ -1,5 +1,6 @@
 export default {
   primaryColor: '#4a148c',
   accentColor: '#ff',
-  tint: 'white'
+  tint: 'white',
+  productBorderColor: 'black'
 }
