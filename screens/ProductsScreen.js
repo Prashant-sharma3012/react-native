@@ -18,7 +18,7 @@ export default class ProductsScreen extends Component {
     <ProductCard
       product={productData.item}
       onSelect={() => this.props.navigation.navigate({
-        routeName: 'ProductDetail', params: { categoryId: productData.item.id }
+        routeName: 'ProductDetail', params: { prodId: productData.item.id }
       })}
     />
   );

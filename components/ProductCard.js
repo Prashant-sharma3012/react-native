@@ -3,12 +3,15 @@ import { View, Text, StyleSheet, TouchableOpacity, ImageBackground } from 'react
 import Colors from '../constants/color';
 
 function ProductCard(props) {
+
+  const defaultImage = "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg";
+
   return (
     <TouchableOpacity onPress={props.onSelect}>
       <View style={styles.container}>
         <View style={styles.productImage}>
-          <ImageBackground style={styles.bgImage} source={{ uri: props.product.imagUrl }}>
-            <Text style={styles.imageTitle}>{props.product.productName}</Text>
+          <ImageBackground style={styles.bgImage} source={{ uri: props.product.imagUrl || defaultImage }}>
+            <Text style={styles.imageTitle}>{props.product.category}</Text>
           </ImageBackground>
 
         </View>
