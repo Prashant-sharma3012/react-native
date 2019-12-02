@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Animated, View, Text, StyleSheet, Image, Dimensions, ScrollView, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Image, Dimensions, ScrollView, TouchableOpacity } from 'react-native';
 const deviceWidth = Dimensions.get('window').width
 
 class ProductImages extends Component {
