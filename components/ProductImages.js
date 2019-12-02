@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Animated, View, Text, StyleSheet, Image, Dimensions, ScrollView } from 'react-native';
+import { Animated, View, Text, StyleSheet, Image, Dimensions, ScrollView, TouchableOpacity } from 'react-native';
 const deviceWidth = Dimensions.get('window').width
 
 class ProductImages extends Component {
 
-  state={
+  state = {
     atPos: 0
   }
 
@@ -12,12 +12,14 @@ class ProductImages extends Component {
     let scrollAmount = Math.floor(deviceWidth);
     let scrolledX = Math.floor(event.nativeEvent.contentOffset.x);
 
-    let atPos = Math.floor(scrolledX/scrollAmount);
+    let atPos = Math.floor(scrolledX / scrollAmount);
 
-    this.setState({atPos});
+    this.setState({ atPos });
   }
 
-  indicatorColor = (index) => (index === this.state.atPos ? '#5294d6' : 'black')
+  indicatorColor = (index) => (index === this.state.atPos ? '#5294d6' : 'black');
+
+  scrollToPos = (index) => this.scrollViewRef.scrollTo({ x: index * deviceWidth });
 
   render() {
     return (
@@ -28,6 +30,7 @@ class ProductImages extends Component {
           showsHorizontalScrollIndicator={false}
           scrollEventThrottle={10}
           onScroll={this.handleScroll}
+          ref={(ref) => { this.scrollViewRef = ref; }}
         >
           {
             this.props.images.map((uri, i) => (
@@ -43,9 +46,11 @@ class ProductImages extends Component {
         <View style={styles.markerContainer}>
           {
             this.props.images.map((uri, i) => (
-              <View
-                style={[styles.markers, {backgroundColor: this.indicatorColor(i)}]}
-              />
+              <TouchableOpacity onPress={() => this.scrollToPos(i)} key={i}>
+                <View
+                  style={[styles.markers, { backgroundColor: this.indicatorColor(i) }]}
+                />
+              </TouchableOpacity>
             ))
           }
         </View>
