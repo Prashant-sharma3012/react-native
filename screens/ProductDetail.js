@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, ScrollView } from 'react-native';
 import { PRODUCTS } from '../mock/products';
 import { INFOTAINTMENT } from '../mock/infotainment';
 import { SAFETY } from '../mock/safety';
 import { TRANSMISSION } from '../mock/transmission';
 import { DIMENSIONS } from '../mock/dimensions';
 import ProductDetailsCard from '../components/ProductDetailsCard';
-import { FlatList } from 'react-native-gesture-handler';
+import ProductImages from '../components/ProductImages';
 
 class ProductDetail extends Component {
 
@@ -20,7 +20,7 @@ class ProductDetail extends Component {
   }
 
   renderSpecs = (data) =>
-    <ProductDetailsCard 
+    <ProductDetailsCard
       details={this.specs[data.item]}
       headerTitle={this.headerTileMap[data.item]}
     />;
@@ -44,31 +44,52 @@ class ProductDetail extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <View style={styles.title}>
-          <Text>
-            {this.selectedProduct.productName}
-          </Text>
+      <ScrollView>
+        <View style={styles.container}>
+          <View style={styles.title}>
+            <Text style={styles.header}>
+              {this.selectedProduct.productName}
+            </Text>
+          </View>
+          <View style={styles.image}>
+            <ProductImages images={this.selectedProduct.images} />
+          </View>
+          <View style={styles.detailsContainer}>
+            {
+              Object.keys(this.specs).map((e, i) => (
+                <ProductDetailsCard
+                  key={i}
+                  details={this.specs[e]}
+                  headerTitle={this.headerTileMap[e]}
+                />
+              ))
+            }
+          </View>
         </View>
-        <View style={styles.image}>
-        </View>
-        <View style={styles.detailsContainer}>
-        <FlatList
-          keyExtractor={item => item} // key extractor needs string as type
-          numColumns={1}
-          data={Object.keys(this.specs)}
-          renderItem={this.renderSpecs} />
-        </View>
-      </View>
+      </ScrollView>
     )
   }
 }
 
 const styles = StyleSheet.create({
-  container: {},
-  title: {},
-  image: {},
-  detailsContainer: {},
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+  },
+  title: {
+    alignItems: 'center'
+  },
+  header: {
+    fontSize: 25,
+    fontWeight: 'bold',
+  },
+  image: {
+  },
+  detailsContainer: {
+    overflow: 'scroll'
+  },
   detail: {},
   label: {},
   text: {},

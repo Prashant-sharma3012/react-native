@@ -7,6 +7,12 @@ export const PRODUCTS = [
     description: 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.',
     imagUrl: "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
     category: 'Nissan',
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png"
+    ],
     price: 91,
     discount: 91
   ,model: 2011 },
@@ -16,6 +22,12 @@ export const PRODUCTS = [
     description: 'Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Saturn',
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png"
+    ],
     price: 36,
     discount: 30
   ,model: 2011 },
@@ -26,6 +38,13 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/volkswagen-t-roc/3.jpg",
     category: 'Chevrolet',
     price: 57,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png"
+
+    ],
     discount: 20
   ,model: 2013 },
   {
@@ -35,6 +54,12 @@ export const PRODUCTS = [
     imagUrl: "https://auto.ndtvimg.com/car-images/gallery/renault/triber/exterior/renault-triber.jpg?v=2019-08-27",
     category: 'Ford',
     price: 84,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 74
   ,model: 2013 },
   {
@@ -44,6 +69,12 @@ export const PRODUCTS = [
     imagUrl: "https://image.shutterstock.com/image-illustration/modern-cars-studio-room-3d-600w-735402217.jpg",
     category: 'Hummer',
     price: 59,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 59
   ,model: 2013 },
   {
@@ -53,6 +84,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/audi-a6-15131.png",
     category: 'Chevrolet',
     price: 58,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 29
   ,model: 2017 },
   {
@@ -62,6 +99,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/news/Tata/tata-45x-21522389916.jpg",
     category: 'Pontiac',
     price: 69,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 2
   ,model: 2012 },
   {
@@ -71,6 +114,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
     category: 'Corbin',
     price: 1,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 80
   ,model: 2012 },
   {
@@ -80,6 +129,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
     category: 'Mitsubishi',
     price: 39,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 5
   ,model: 2015 },
   {
@@ -89,6 +144,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Lexus',
     price: 82,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 11
   ,model: 2017 },
   {
@@ -98,6 +159,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
     category: 'BMW',
     price: 13,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 90
   ,model: 2017 },
   {
@@ -107,6 +174,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
     category: 'Chrysler',
     price: 70,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 99
   ,model: 2017 },
   {
@@ -116,6 +189,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Ford',
     price: 76,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 58
   ,model: 2015 },
   {
@@ -125,6 +204,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Cadillac',
     price: 30,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 46
   ,model: 2012 },
   {
@@ -134,6 +219,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
     category: 'Ford',
     price: 15,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 70
   ,model: 2012 },
   {
@@ -142,6 +233,12 @@ export const PRODUCTS = [
     description: 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',
     imagUrl: "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
     category: 'Buick',
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     price: 30,
     discount: 54
   ,model: 2017 },
@@ -152,6 +249,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Toyota',
     price: 92,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 50
   ,model: 2017 },
   {
@@ -161,6 +264,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
     category: 'Ford',
     price: 32,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 99
   ,model: 2012 },
   {
@@ -170,6 +279,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Mazda',
     price: 18,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 78
   ,model: 2015 },
   {
@@ -179,6 +294,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
     category: 'Isuzu',
     price: 79,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 96
   ,model: 2014 },
   {
@@ -188,6 +309,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Chevrolet',
     price: 68,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 15
   ,model: 2019 },
   {
@@ -197,6 +324,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/audi-a6-15131.png",
     category: 'Jaguar',
     price: 15,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 27
   ,model: 2019 },
   {
@@ -206,6 +339,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Ford',
     price: 48,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 5
   ,model: 2019 },
   {
@@ -215,6 +354,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/volkswagen-tiguan-13770.png",
     category: 'Maserati',
     price: 48,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 78
   ,model: 2012 },
   {
@@ -224,6 +369,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/audi-a6-15131.png",
     category: 'Honda',
     price: 60,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 20
   ,model: 2012 },
   {
@@ -233,6 +384,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Buick',
     price: 79,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 51
   ,model: 2019 },
   {
@@ -242,6 +399,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Dodge',
     price: 44,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 3
   ,model: 2019 },
   {
@@ -251,6 +414,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/audi-a6-15131.png",
     category: 'Chevrolet',
     price: 34,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 42
   ,model: 2019 },
   {
@@ -260,6 +429,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Toyota',
     price: 60,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 92
   ,model: 2012 },
   {
@@ -269,6 +444,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/audi-a6-15131.png",
     category: 'Dodge',
     price: 99,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 57
   ,model: 2012 },
   {
@@ -278,6 +459,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Mercedes-Benz',
     price: 61,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 63
   ,model: 2008 },
   {
@@ -287,6 +474,12 @@ export const PRODUCTS = [
     imagUrl: "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver5/images/car-data/big/audi-a6-15131.png",
     category: 'Land Rover',
     price: 11,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 52
   ,model: 2008 },
   {
@@ -296,6 +489,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Chevrolet',
     price: 12,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 68
   ,model: 2008 },
   {
@@ -305,6 +504,12 @@ export const PRODUCTS = [
     imagUrl: "https://drop.ndtv.com/albums/AUTO/maruti_suzuki_x_637023274862263309/main.jpg",
     category: 'Lexus',
     price: 92,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 23
   ,model: 2016 },
   {
@@ -314,6 +519,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'MINI',
     price: 19,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 26
   ,model: 2016 },
   {
@@ -323,6 +534,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Oldsmobile',
     price: 86,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 61
   ,model: 2016 },
   {
@@ -332,6 +549,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Isuzu',
     price: 7,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 5
   ,model: 2008 },
   {
@@ -341,6 +564,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Chevrolet',
     price: 77,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 90
   ,model: 2008 },
   {
@@ -350,6 +579,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Kia',
     price: 60,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 20
   ,model: 2016 },
   {
@@ -359,6 +594,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'BMW',
     price: 100,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 29
   ,model: 2016 },
   {
@@ -368,6 +609,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'BMW',
     price: 54,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 68
   ,model: 2006 },
   {
@@ -377,6 +624,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Toyota',
     price: 70,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 33
   ,model: 2006 },
   {
@@ -386,6 +639,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Ford',
     price: 84,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 54
   ,model: 2006 },
   {
@@ -395,6 +654,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Nissan',
     price: 95,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 12
   ,model: 2015 },
   {
@@ -404,6 +669,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Mercedes-Benz',
     price: 51,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 75
   ,model: 2015 },
   {
@@ -413,6 +684,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Saturn',
     price: 87,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 57
   ,model: 2006 },
   {
@@ -422,6 +699,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Kia',
     price: 50,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 32
   ,model: 2006 },
   {
@@ -431,6 +714,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Buick',
     price: 11,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 77
   ,model: 2006 },
   {
@@ -440,6 +729,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Volkswagen',
     price: 35,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 23
   ,model: 2006 },
   {
@@ -449,6 +744,12 @@ export const PRODUCTS = [
     imagUrl: null,
     category: 'Plymouth',
     price: 82,
+    images: [
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg",
+      "https://drop.ndtv.com/albums/AUTO/porsche-taycan-turbo/1200x900_1.jpg"
+    ],
     discount: 93,
     model: 2011
   }
