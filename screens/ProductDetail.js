@@ -1,22 +1,17 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, ScrollView } from 'react-native';
-import { PRODUCTS } from '../mock/products';
-import { INFOTAINTMENT } from '../mock/infotainment';
-import { SAFETY } from '../mock/safety';
-import { TRANSMISSION } from '../mock/transmission';
-import { DIMENSIONS } from '../mock/dimensions';
 import ProductDetailsCard from '../components/ProductDetailsCard';
 import ProductImages from '../components/ProductImages';
 import ProductImageCarousel from "../components/ProductImageCarousel";
+import { connect } from 'react-redux';
 
 class ProductDetail extends Component {
 
   static navigationOptions = (navigationData) => {
-    let prodId = navigationData.navigation.getParam('prodId');
-    let selectedProduct = PRODUCTS.find(product => product.id === prodId);
+    let prodCat = navigationData.navigation.getParam('prodCategory');
 
     return {
-      headerTitle: selectedProduct.category
+      headerTitle: prodCat
     }
   }
 
@@ -27,13 +22,13 @@ class ProductDetail extends Component {
     />;
 
   prodId = this.props.navigation.getParam('prodId');
-  selectedProduct = PRODUCTS.find(product => product.id === this.prodId);
+  selectedProduct = this.props.products.find(product => product.id === this.prodId);
 
   specs = {
-    inf: INFOTAINTMENT.find(e => e.id === this.prodId),
-    safety: SAFETY.find(e => e.id === this.prodId),
-    transmission: TRANSMISSION.find(e => e.id === this.prodId),
-    dimension: DIMENSIONS.find(e => e.id === this.prodId)
+    inf: this.props.inf.find(e => e.id === this.prodId),
+    safety: this.props.safety.find(e => e.id === this.prodId),
+    transmission: this.props.transmission.find(e => e.id === this.prodId),
+    dimension: this.props.dimensions.find(e => e.id === this.prodId)
   }
 
   headerTileMap = {
@@ -97,4 +92,12 @@ const styles = StyleSheet.create({
   text: {},
 });
 
-export default ProductDetail;
+const mapStateToProps = ({ products }) => ({
+  products: products.products,
+  dimensions: products.dimensions,
+  inf: products.inf,
+  transmission: products.transmission,
+  safety: products.safety,
+})
+
+export default connect(mapStateToProps,{})(ProductDetail);
