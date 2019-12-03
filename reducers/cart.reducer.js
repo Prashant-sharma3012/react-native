@@ -5,7 +5,7 @@ export default (cart = { items: [] }, action) => {
     case ADD_ITEM:
       return {
         ...cart,
-        items: [...cart.items, action.payload]
+        items: [...cart.items.filter(e => e.id !== action.payload.id), action.payload]
       }
     case DELETE_ITEM:
       return {
