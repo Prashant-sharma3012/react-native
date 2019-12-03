@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Image, StyleSheet, Dimensions } from 'react-native';
-import Carousel, {ParallaxImage } from 'react-native-snap-carousel';
+import Carousel, { ParallaxImage } from 'react-native-snap-carousel';
 
 const { width: screenWidth } = Dimensions.get('window')
 
@@ -22,19 +22,25 @@ class ProductImageCarousel extends Component {
 
   render() {
     return (
-      <Carousel
-        sliderWidth={screenWidth}
-        sliderHeight={screenWidth}
-        itemWidth={screenWidth - 60}
-        data={this.props.images}
-        renderItem={this._renderItem}
-        hasParallaxImages={true}
-      />
+      <View style={styles.container}>
+        <Carousel
+          sliderWidth={screenWidth}
+          sliderHeight={screenWidth}
+          itemWidth={screenWidth - 60}
+          data={this.props.images}
+          renderItem={this._renderItem}
+          hasParallaxImages={true}
+        />
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  container:{
+    marginTop: 10,
+    marginBottom: 10
+  },
   item: {
     width: screenWidth - 60,
     height: screenWidth - 60,
@@ -42,8 +48,8 @@ const styles = StyleSheet.create({
   imageContainer: {
     flex: 1,
     marginBottom: Platform.select({ ios: 0, android: 1 }), // Prevent a random Android rendering issue
-    backgroundColor: 'white',
-    borderRadius: 8,
+    backgroundColor: 'black',
+    borderRadius: 8
   },
   image: {
     ...StyleSheet.absoluteFillObject,
