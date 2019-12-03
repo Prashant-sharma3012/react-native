@@ -7,6 +7,7 @@ import { TRANSMISSION } from '../mock/transmission';
 import { DIMENSIONS } from '../mock/dimensions';
 import ProductDetailsCard from '../components/ProductDetailsCard';
 import ProductImages from '../components/ProductImages';
+import ProductImageCarousel from "../components/ProductImageCarousel";
 
 class ProductDetail extends Component {
 
@@ -52,7 +53,8 @@ class ProductDetail extends Component {
             </Text>
           </View>
           <View style={styles.image}>
-            <ProductImages images={this.selectedProduct.images} />
+            {/* <ProductImages images={this.selectedProduct.images} /> */}
+            <ProductImageCarousel images={this.selectedProduct.images} />
           </View>
           <View style={styles.detailsContainer}>
             {
